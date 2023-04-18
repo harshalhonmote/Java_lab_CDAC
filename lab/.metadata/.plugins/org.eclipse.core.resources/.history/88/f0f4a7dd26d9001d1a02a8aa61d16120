@@ -1,0 +1,21 @@
+package demo;
+
+import java.util.Scanner;
+
+class Second {
+	public static void main(String[] ar) {
+		System.out.println("hwwwwww");
+	}
+}
+  class First {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner("a b 22 56 12.90");
+		while(sc.hasNext()) {
+			System.out.print(sc.next()+" ");
+		}
+        System.out.println("haa");        
+	}
+
+}

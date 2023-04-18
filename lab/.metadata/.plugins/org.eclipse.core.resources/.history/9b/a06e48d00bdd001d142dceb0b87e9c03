@@ -1,0 +1,18 @@
+package com.assignment04;
+
+public class Assignment04 {
+
+	static void reverse() {
+		String str="abcd";
+//-----------------------------------------------------------
+//	    StringBuilder rev = new StringBuilder(str);
+//	    rev.reverse();
+//	    System.out.println(rev);
+		
+	}
+	public static void main(String[] args) {
+		Assignment04.reverse();
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package com.harsh.first;
+
+class Fisrt{
+	private int num1;
+	private String str;
+	
+	Public Fisrt() {
+		this(10,"");
+	}
+	public Fisrt(int num1, String str) {	
+		this.num1 = num1;
+		this.str = str;
+	}
+	
+	
+}
+
+public class Practice {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

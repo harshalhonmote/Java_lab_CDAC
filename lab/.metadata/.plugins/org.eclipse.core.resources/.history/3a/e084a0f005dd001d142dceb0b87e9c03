@@ -1,0 +1,18 @@
+package com.array;
+
+class Emp{
+	int empid;
+	String name;
+}
+
+public class MultiArray {
+   
+	static void fun(int ... num) {
+		
+	}
+	public static void main(String[] args) {
+		System.out.println(MultiArray.fun(1,4,5,8,9));
+
+	}
+
+}

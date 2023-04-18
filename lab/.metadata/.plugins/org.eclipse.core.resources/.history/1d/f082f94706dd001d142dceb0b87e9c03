@@ -1,0 +1,28 @@
+package com.array;
+
+class Emp{
+	int empid;
+	String name;
+}
+
+public class MultiArray {
+   
+//	static int fun(int ... num) { //Variable arity/arg. method
+//		int sum=0;
+//		for(int x:num) {
+//			sum+=x;
+//		}
+//		return sum;
+//	}
+	
+	
+	public static void main(String[] args) {
+//		System.out.println(MultiArray.fun(1,4,5,8,9));
+
+		String name="pune";
+		String name1="pune";
+		if(name==name1)System.out.println("equal");
+		else System.out.println("not");
+	}
+
+}

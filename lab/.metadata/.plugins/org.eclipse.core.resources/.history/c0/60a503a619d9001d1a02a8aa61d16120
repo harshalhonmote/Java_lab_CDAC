@@ -1,0 +1,29 @@
+package demo;
+
+import java.util.Scanner;
+
+public class Pattern {
+    
+	void pattern03() {
+	  int r=0;
+	  System.out.println("Enter rows:");
+	  Scanner sc = new Scanner(System.in);
+	  r = sc.nextInt();
+	  for(int i=r;i>=0;--i) {
+		  for(int j=i;j>=1;j--) {
+			  System.out.print(" ");
+		  }
+		  for(int k=i;k<=r;k++) {
+			  System.out.print("*");
+		  }
+		  System.out.println();
+	  }
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      Pattern p = new Pattern();
+      p.pattern03();
+	}
+
+}

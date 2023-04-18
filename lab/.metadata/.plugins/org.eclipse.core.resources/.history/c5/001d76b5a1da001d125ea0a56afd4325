@@ -1,0 +1,31 @@
+package com.harsh.first;
+
+class First{
+	public int num1;
+	public String str;
+	public static First f=null;
+	
+	First() {
+		this(10,"AAA");
+	}
+	public First(int num1, String str) {	
+		this.num1 = num1;
+		this.str = str;
+	}
+	public static First getRef() {
+		if(f == null)f=new First();
+		return f;
+	}
+	
+	
+}
+
+public class Practice {
+
+	public static void main(String[] args) {
+        First f1= First.getRef();
+        f1.
+  
+	}
+
+}

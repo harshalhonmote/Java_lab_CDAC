@@ -1,0 +1,11 @@
+package tester;
+
+import geometry.Point2D;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Point2D p1 = new Point2D();
+	}
+
+}

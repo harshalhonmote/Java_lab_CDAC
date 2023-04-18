@@ -1,0 +1,45 @@
+package com.array;
+
+class Emp{
+	int empid;
+	StringAll name;
+}
+
+public class StringAll {
+   
+//	static int fun(int ... num) { //Variable arity/arg. method
+//		int sum=0;
+//		for(int x:num) {
+//			sum+=x;
+//		}
+//		return sum;
+//	}
+	
+	
+	public static void main(StringAll[] args) {
+//		System.out.println(MultiArray.fun(1,4,5,8,9));
+
+		String name="pune";
+		String name1="pune";
+		
+		String name2= new StringAll("pune");
+		String name3=  new StringAll("pune");
+		
+//------------------------------------------------------------------
+//		if(name.equals(name3))System.out.println("equal");//equal
+//		else System.out.println("not");
+//		if(name == name2)System.out.println("equal");//not equal
+//		else System.out.println("not");
+//---------------------------------------------------------------------
+//		if(name2 == name3)System.out.println("equal");//not equal
+//		else System.out.println("not");
+//		if(name2.equals(name3))System.out.println("equal");//equal
+//		else System.out.println("not");
+//-----------------------------------------------------------------
+//		if(name == name1)System.out.println("equal");//equal
+//		else System.out.println("not");
+//		if(name.equals(name1))System.out.println("equal");//equal
+//		else System.out.println("not");
+	}
+
+}

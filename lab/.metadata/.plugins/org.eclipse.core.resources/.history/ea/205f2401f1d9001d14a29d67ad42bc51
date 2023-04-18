@@ -1,0 +1,20 @@
+package demo;
+
+import java.util.Scanner;
+
+class Second {
+	public static void main(String[] ar) {
+		System.out.println("hwwwwww");
+	}
+}
+
+
+  class First {
+
+	public static void main(String[] args) {
+		Map<int,int>m = new HashMap<int,int>();
+		
+        //System.out.println("haa");        
+	}
+
+}

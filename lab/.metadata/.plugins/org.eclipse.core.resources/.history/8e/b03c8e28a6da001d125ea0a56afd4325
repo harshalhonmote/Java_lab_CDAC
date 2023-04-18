@@ -1,0 +1,17 @@
+package com.harsh.first;
+
+class Demo{
+	public int id;
+	public String name;
+	
+}
+
+public class Array {
+      
+	
+	public static void main(String[] args) {
+		Demo arr[]=new Demo[3];
+
+	}
+
+}

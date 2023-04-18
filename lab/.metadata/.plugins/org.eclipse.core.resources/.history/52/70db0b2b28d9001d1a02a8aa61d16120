@@ -1,0 +1,27 @@
+package demo;
+
+import java.util.Scanner;
+
+class Second {
+	public static void main(String[] ar) {
+		System.out.println("hwwwwww");
+	}
+}
+  class First {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int arr[]= {2,4,3,5};
+		//Scanner sc = new Scanner("a b 22 56 12.90");
+		for(int x:arr) {
+			System.out.print(x+" ");
+		}
+		int a[] = new int[4];
+		a[0]=arr[0];
+		for(int i=1;i<arr.length;i++) {
+			
+		}
+        System.out.println("haa");        
+	}
+
+}
