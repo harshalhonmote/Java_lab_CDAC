@@ -11,7 +11,20 @@
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="com.assignment04.Assignment04"/>
     <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+    <fullyQualifiedTypeName name="inheritance.Circle"/>
+    <fullyQualifiedTypeName name="inheritance.Aggrigation"/>
+    <fullyQualifiedTypeName name="inheritance.FinalKeyword"/>
+    <fullyQualifiedTypeName name="inheritance.Inherit"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="downCasting.Employee"/>
+    <fullyQualifiedTypeName name="downCasting.Student"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="abstractClass.Rectangle"/>
+    <fullyQualifiedTypeName name="abstractClass.Circle"/>
+    <fullyQualifiedTypeName name="upcasting.Emp"/>
+    <fullyQualifiedTypeName name="objectClassMethod.Employee"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="aPracticeAll.Amstrong"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
 </qualifiedTypeNameHistroy>

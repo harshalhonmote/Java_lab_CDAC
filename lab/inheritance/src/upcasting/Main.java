@@ -26,7 +26,7 @@ public class Main {
 			System.out.println("0.EXIT");
 			System.out.println("1.Student");
 			System.out.println("2.EMP");
-			System.out.println("3.MAIN");
+			//System.out.println("3.MAIN");
 			System.out.println("4.DISPLAY");
 			System.out.print("ENTER CHOICE:");
 			choice = sc.nextInt();
