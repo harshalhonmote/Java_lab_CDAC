@@ -3,7 +3,7 @@ package abstractClass;
 import java.util.Scanner;
 
 public class Test{
-
+   
 	public static int menu() {
 		System.out.println("----------------------");
 		System.out.println("0. Exit");
@@ -20,6 +20,7 @@ public class Test{
 		   switch(choice) {
 		   case 1:
 			   s=new Rectangle();
+			  
 			   break;
 		   case 2:
 			   s= new Circle();
