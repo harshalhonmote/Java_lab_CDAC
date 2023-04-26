@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.lang.Boolean"/>
     <fullyQualifiedTypeName name="geometry.Point2D"/>
     <fullyQualifiedTypeName name="com.array.MultiArray"/>
     <fullyQualifiedTypeName name="com.assignment04.Assignment04"/>
@@ -41,16 +39,25 @@
     <fullyQualifiedTypeName name="optAssignment.GrowStack"/>
     <fullyQualifiedTypeName name="optAssignment.Employee"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
-    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
     <fullyQualifiedTypeName name="java.lang.NegativeArraySizeException"/>
     <fullyQualifiedTypeName name="exceptionHandling.NegativeSalaryException"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="boundUnbound.GenericMethod"/>
     <fullyQualifiedTypeName name="java.lang.Comparable"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="comparable.StudentCompatrator"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthToggleButtonUI"/>
+    <fullyQualifiedTypeName name="memberClasses.Outer.Inner"/>
+    <fullyQualifiedTypeName name="memberClasses.NonStaticClass"/>
+    <fullyQualifiedTypeName name="anonymous.Myclass"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="interfaceJava8.Inter1"/>
+    <fullyQualifiedTypeName name="interfaceJava8.Inter2"/>
+    <fullyQualifiedTypeName name="interfaceJava8.Employee"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="Assignment11.Arithmetic"/>
+    <fullyQualifiedTypeName name="java.util.function.Predicate"/>
 </qualifiedTypeNameHistroy>
