@@ -1,6 +1,7 @@
 package optionaPOJO;
 
 public class UserDao {
+	UserDao uDao;
 	public User findById(int userId) {
 		for(User e : Dbutil.ulist) {
 			if(e.getId() == userId) {
@@ -26,11 +27,14 @@ public class UserDao {
 	}
 	
 	public void addUser(User u) {
+		 User temp;
+		 if((temp = uDao.findByEmailAndPassword(u.getEmail(), u.getPasswd())) != null)
 	      Dbutil.ulist.add(u);
+		 else System.out.println("USER ALREADY PRESENT!!");
 	}
 	
 	public void updateUser(User u) {
-	
+	      
 	}
 	
 }

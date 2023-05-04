@@ -1,12 +1,23 @@
 package optionaPOJO;
 
-public class QuoteService {
+import java.util.ArrayList;
+import java.util.List;
 
+public class QuoteService {
+    QuoteDao qd = new QuoteDao();
+	
 	public void displayUserQuotes() {
 		// input user id
+		List<Quote>temp = new ArrayList<>();
+		temp = qd.findByUserId(UserService.current.getId());
+        temp.forEach((e)-> System.out.println(e));
+        
 	}
 
 	public void displayAllQuotes() {
+		List<Quote>temp = new ArrayList<>();
+		temp = qd.findAll();
+        temp.forEach((e)-> System.out.println(e));
 	}
 
 	public void addNewQuote() {

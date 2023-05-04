@@ -35,11 +35,18 @@ public class UserService {
 	}
 
 	public void changePassword() {
-
+		System.out.print("ENTER NEW PASSWD:");
+		current.setPasswd(Sc.sc.next());
+		System.out.println("PASSWD UPDATED SUCESSFULLY");
 	}
 
 	public void changeProfile() {
-
+		System.out.print("ENTER FIRST NAME:");
+		current.setFirstName(Sc.sc.next());
+		System.out.print("ENTER LAST NAME:");
+		current.setLastName(Sc.sc.next());
+		System.out.print("ENTER EMAIL ID:");
+		current.setEmail(Sc.sc.next());
 	}
 
 }

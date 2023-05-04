@@ -1,5 +1,6 @@
 package optionaPOJO;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class QuoteDao {
@@ -10,11 +11,22 @@ public class QuoteDao {
 	}
 	
 	public List<Quote> findByUserId(int userId) {
-	   return null;
+		List<Quote>temp = new ArrayList<>();
+		for(Quote q :Dbutil.qlist) {
+			if(q.getUserId() == userId) {
+				temp.add(q);
+			}
+		}
+	   return temp;
 	}
 	
 	public List<Quote> findAll() {
-	  return null;
+		List<Quote>temp = new ArrayList<>();
+		for(Quote q :Dbutil.qlist) {
+				temp.add(q);
+		}
+	   return temp;
+	  
 	}
 	
 	public void addQuote(Quote q) {
